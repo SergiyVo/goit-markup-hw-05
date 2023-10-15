@@ -540,7 +540,6 @@ footer {
 
 .subscribe-form {
     display: flex;
-    justify-content: center;
     gap: 24px;
 }
 
@@ -552,16 +551,33 @@ footer {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
+    padding-left: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-input::placeholder {
     color #ffffff;
 }
 
+.subscribe-btn {
+    min-width: 165px;
+    height: 40px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+
+}
 
 
 /*  footer-end  */
