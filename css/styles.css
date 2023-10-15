@@ -686,7 +686,7 @@ footer {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-bottom: 16px;
+
     color: rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -725,11 +725,10 @@ footer {
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
-    margin-right: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
 
@@ -756,6 +755,7 @@ footer {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 95px;
+    margin-top: 24px;
 }
 
 .modal-form-btn:hover {
