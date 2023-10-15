@@ -540,7 +540,7 @@ footer {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
@@ -562,7 +562,7 @@ footer {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn {
@@ -572,13 +572,14 @@ footer {
     background: #E7E9FC;
     width: 24px;
     height: 24px;
-    top 24px;
+    top: 24px;
     right: 24px;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -609,7 +610,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 48px;
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
@@ -619,7 +619,7 @@ footer {
 }
 
 .modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -653,6 +653,10 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.48px;
     margin-bottom: 4px;
+}
+
+.modal-field-comment {
+    margin-bottom: 16px;
 }
 
 .input-wrap {
