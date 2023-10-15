@@ -526,6 +526,9 @@ footer {
 
 }
 
+.footer-second-container {
+    margin-right: 80px;
+}
 .subscribe-title {
     margin-bottom: 16px;
     font-weight: 500;
@@ -537,7 +540,8 @@ footer {
 
 .subscribe-form {
     display: flex;
-    gap 24px;
+    justify-content: center;
+    gap: 24px;
 }
 
 .subscribe-input {
@@ -548,8 +552,8 @@ footer {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding-left: 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
 }
@@ -557,6 +561,7 @@ footer {
 .subscribe-input::placeholder {
     color #ffffff;
 }
+
 
 
 /*  footer-end  */
