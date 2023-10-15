@@ -622,10 +622,6 @@ footer {
     margin-bottom: 8px;
     
 }
-.modal-field-check {
-        margin-bottom: 24px;
-
-    }
 
 .modal-input {
     width: 100%;
@@ -709,13 +705,16 @@ footer {
     letter-spacing: 0.03em;
 }
 
+.modal-field-check {
+    margin-bottom: 24px;
+}
+
 .check-text {
     color: #8E8F99;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
     align-items: center;
 }
 
